@@ -8,6 +8,9 @@
       <WelcomeSection/>
       <ArtSection/>
     </div>
+    <div class="services-section">
+      <ServicesSection/>
+    </div>
   </div>
 </template>
 
@@ -16,6 +19,7 @@ import NavBar from './components/NavBar.vue';
 import IntroSection from './components/IntroSection.vue';
 import WelcomeSection from './components/WelcomeSection.vue';
 import ArtSection from './components/ArtSection.vue';
+import ServicesSection from './components/ServicesSection.vue';
 
 export default {
   name: 'App',
@@ -23,7 +27,8 @@ export default {
     NavBar,
     IntroSection,
     WelcomeSection,
-    ArtSection
+    ArtSection,
+    ServicesSection
 }
 }
 </script>
