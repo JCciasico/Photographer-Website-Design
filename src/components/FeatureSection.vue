@@ -55,4 +55,20 @@ button:hover{
     color: #00fefc;
     border: 3px solid #00fefc;
 }
+@media(max-width:500px){
+    span{
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+    button{
+        padding: 0.5rem;
+        width: 120px;
+        border: 2px solid #dfe4ea;
+    }
+    button:hover{
+        background:none;
+        color: #00fefc;
+        border: 2px solid #00fefc;
+    }
+}
 </style>
