@@ -15,9 +15,9 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link text" aria-current="page">Services</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="#" class="nav-link image-link" aria-current="page"><img src="../assets/Untitled.png" class="image" alt=""></a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a href="#" class="nav-link text" aria-current="page">Projects</a>
                         </li>

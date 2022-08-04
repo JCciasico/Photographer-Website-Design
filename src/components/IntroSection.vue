@@ -5,7 +5,7 @@
             The truth behind
         </h1>
         <h6>
-            A creative portfolio of Japanese Photographer
+            A creative portfolio of Photographer
         </h6>
     </div>
   </section>
