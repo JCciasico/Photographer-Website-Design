@@ -5,7 +5,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span><i class="fas fa-bars" style="color:#e74c3c; font-size:28px;"></i></span>
+                    <span><i class="fas fa-bars" style="color:#00fefc; font-size:28px;"></i></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <ul class="navbar-nav d-flex align-items-center" style="column-gap:25px">
@@ -47,7 +47,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: #e74c3c;
+    color: #00fefc;
 }
 span{
     font-size: 0.9rem;
