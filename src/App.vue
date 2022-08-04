@@ -28,7 +28,7 @@ export default {
 }
 .intro-section{
   background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.7)), 
-	url("./assets/james-donovan-kFHz9Xh3PPU-unsplash.jpg");
+	url("./assets/manuel-cosentino-n--CMLApjfI-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
