@@ -2,17 +2,20 @@
   <div>
     <div class="intro-section">
       <NavBar/>
+      <IntroSection/>
     </div>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue';
+import IntroSection from './components/IntroSection.vue';
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    IntroSection
 }
 }
 </script>
@@ -24,7 +27,7 @@ export default {
   box-sizing: border-box;
 }
 .intro-section{
-  background: url("./assets/manuel-cosentino-n--CMLApjfI-unsplash.jpg");
+  background: url("./assets//manuel-cosentino-n--CMLApjfI-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

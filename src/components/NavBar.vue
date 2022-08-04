@@ -5,9 +5,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span><i class="fas fa-bars" style="color:#ffbe00; font-size:28px;"></i></span>
+                    <span><i class="fas fa-bars" style="color:#e74c3c; font-size:28px;"></i></span>
                 </button>
-
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <ul class="navbar-nav d-flex align-items-center" style="column-gap:25px">
                         <li class="nav-item">
@@ -17,7 +16,7 @@
                             <a href="#" class="nav-link text" aria-current="page">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text" aria-current="page"><img src="../assets/logo.png" class="image" alt=""></a>
+                            <a href="#" class="nav-link image-link" aria-current="page"><img src="../assets/Untitled.png" class="image" alt=""></a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link text" aria-current="page">Projects</a>
@@ -46,6 +45,7 @@ a{
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    font-weight: bold;
 }
 a:hover{
     color: #e74c3c;
@@ -55,14 +55,15 @@ span{
 }
 .navbar-body{
     padding: 0.5rem 0;
+    padding-left: 2rem;
 }
 .image{
-    width: 8em;
-    height: 6em;
+    width: 5em;
+    height: 5em;
 }
 
 @media(max-width:991px){
-    .btn{
+    .image-link{
         display: none;
     }
 }
