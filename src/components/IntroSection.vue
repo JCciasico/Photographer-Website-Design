@@ -38,5 +38,32 @@ h6{
     margin-top: 10px;
     margin-bottom: 100px;
 }
+@media(max-width:800px){
+    h1{
+        font-size: 4rem;
+    }
+    h6{
+        font-size: 1.2rem;
+    }
+}
+@media(max-width:500px){
+    h1{
+        font-size: 3rem;
+    }
+    h6{
+        font-size: 1rem;
+    }
+}
+@media(max-width:400px){
+    h1{
+        font-size: 2.3rem;
+    }
+    h6{
+        font-size: 1rem;
+    }
+    .intro-body{
+        padding: 9rem 0;
+    }
+}
 
 </style>

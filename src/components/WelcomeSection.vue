@@ -2,7 +2,7 @@
   <section>
     <div class="container welcome-body">
         <div class="row d-flex justify-content-center">
-            <div class="col-6">
+            <div class="col-8">
                 <span>Welcome</span>
                 <p>I am filmmaker, a photographer and a philisopher.
                     By capturing the reality I seek the truth, hidden
@@ -38,5 +38,11 @@ p{
     margin-top: 50px;
     color: #747d8c;
     font-family: 'Philosopher', sans-serif;
+}
+@media(max-width:500px){
+    span{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
 }
 </style>

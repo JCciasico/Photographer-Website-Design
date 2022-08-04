@@ -2,7 +2,7 @@
   <section>
     <div class="container welcome-body">
         <div class="row d-flex justify-content-center">
-            <div class="col-6">
+            <div class="col-8">
                 <span>Art in numbers</span>
                 <div class="row number-body">
                     <div class="col">
@@ -59,5 +59,11 @@ h1{
 p{
     font-family: 'Philosopher', sans-serif;
     color: #57606f;
+}
+@media(max-width:500px){
+    span{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
 }
 </style>

@@ -38,6 +38,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 .intro-section{
   background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 

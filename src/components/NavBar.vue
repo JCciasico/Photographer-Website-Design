@@ -8,7 +8,7 @@
                     <span><i class="fas fa-bars" style="color:#00fefc; font-size:28px;"></i></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav d-flex align-items-center" style="column-gap:25px">
+                    <ul class="navbar-nav d-flex align-items-start" style="column-gap:25px">
                         <li class="nav-item">
                             <a href="#" class="nav-link text" aria-current="page">About</a>
                         </li>

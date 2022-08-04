@@ -6,18 +6,16 @@
                 <div class="row">
                     <div class="col-12 image">
                     </div>
-                    <div class="col-6 image-1">
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-1">
                         <img src="../assets/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg" class="img-fluid" alt="">
                     </div>
-                    <div class="col-6 services-cont text-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 services-cont text-center">
                         <div>
                             <span>Services</span>
                             <div class="services-des">
-                                <p>I delivered the highest quality services <br>
-                                in the following fields:</p>
-                                <p>Photography</p>
-                                <p>Filmmaking</p>
-                                <p>Cinematography</p>
+                                <p>I delivered the highest quality services
+                                in the following fields: Photography, Filmmaking,
+                                Cinematography.</p>
                             </div>
                         </div>
                     </div>
@@ -63,5 +61,17 @@ span{
     font-family: 'Philosopher', sans-serif;
     color: #747d8c;
     margin-top: 30px;
+}
+@media(max-width:500px){
+    span{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+    .image{
+        display: none;
+    }
+    .services-cont{
+        padding: 0.7rem 0;
+    }
 }
 </style>
