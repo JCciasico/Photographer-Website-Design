@@ -1,35 +1,29 @@
 <template>
     <section>
-        <div class="container" id="home">
-            <nav class="navbar navbar-expand-lg">
-                <img src="" alt="logo image"
-                    style="width: 9em; height: 5em; justify-content: start;">
-                    
+        <div class="container navbar-body" id="home">
+            <nav class="navbar navbar-expand-lg">                    
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span><i class="fas fa-bars" style="color:#ffbe00; font-size:28px;"></i></span>
                 </button>
 
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav" style="column-gap:25px">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <ul class="navbar-nav d-flex align-items-center" style="column-gap:25px">
                         <li class="nav-item">
-                            <a href="#home" class="nav-link text" aria-current="page">Home</a>
+                            <a href="#home" class="nav-link text" aria-current="page">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#about" class="nav-link text" aria-current="page">About</a>
+                            <a href="#about" class="nav-link text" aria-current="page">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#car-rent" class="nav-link text" aria-current="page">Car Rent</a>
+                            <a href="#car-rent" class="nav-link text" aria-current="page"><img src="../assets/logo.png" class="image" alt=""></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#services" class="nav-link text" aria-current="page">Services</a>
+                            <a href="#services" class="nav-link text" aria-current="page">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#blog" class="nav-link text" aria-current="page">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link text" aria-current="page">Contacts</a>
+                            <a href="#blog" class="nav-link text" aria-current="page">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -54,24 +48,19 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: #ffdf00 ;
-}
-.btn{
-    width: 10em; 
-    height: 3em;
-    margin-right: -25px;
-    border: none;
-    background-color: #ffbe00;
-    border-radius: 0px;
-}
-.btn:hover{
-    background-color: white;
-    color: #ffbe00;
-    border: 1px solid #ffbe00;
+    color: #e74c3c;
 }
 span{
     font-size: 0.9rem;
 }
+.navbar-body{
+    padding: 0.5rem 0;
+}
+.image{
+    width: 8em;
+    height: 6em;
+}
+
 @media(max-width:991px){
     .btn{
         display: none;

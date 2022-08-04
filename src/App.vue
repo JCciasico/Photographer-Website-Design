@@ -1,8 +1,8 @@
 <template>
   <div>
-    <nav>
+    <div class="intro-section">
       <NavBar/>
-    </nav>
+    </div>
   </div>
 </template>
 
@@ -22,5 +22,10 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.intro-section{
+  background: url("./assets/manuel-cosentino-n--CMLApjfI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
