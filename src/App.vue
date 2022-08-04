@@ -11,6 +11,9 @@
     <div class="services-section">
       <ServicesSection/>
     </div>
+    <div class="feature-section">
+      <FeatureSection/>
+    </div>
   </div>
 </template>
 
@@ -20,6 +23,7 @@ import IntroSection from './components/IntroSection.vue';
 import WelcomeSection from './components/WelcomeSection.vue';
 import ArtSection from './components/ArtSection.vue';
 import ServicesSection from './components/ServicesSection.vue';
+import FeatureSection from './components/FeatureSection.vue';
 
 export default {
   name: 'App',
@@ -28,7 +32,8 @@ export default {
     IntroSection,
     WelcomeSection,
     ArtSection,
-    ServicesSection
+    ServicesSection,
+    FeatureSection
 }
 }
 </script>
@@ -43,6 +48,12 @@ export default {
 .intro-section{
   background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 
 	url("./assets/alex-knight-958bi4L1N9s-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.feature-section{
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), 
+	url("./assets/highway-1jpg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
