@@ -8,7 +8,7 @@
                     <span><i class="fas fa-bars" style="color:#00fefc; font-size:28px;"></i></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav d-flex align-items-start" style="column-gap:25px">
+                    <ul class="navbar-nav" style="column-gap:25px">
                         <li class="nav-item">
                             <a href="#" class="nav-link text" aria-current="page">About</a>
                         </li>
@@ -16,7 +16,7 @@
                             <a href="#" class="nav-link text" aria-current="page">Services</a>
                         </li>
                         <li class="nav-item">
-                            <img src="../assets/logo.png"  class="nav-link image-link image" alt="">
+                            <img src="../assets/logo-1.png"  class="nav-link image-link image" alt="">
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link text" aria-current="page">Projects</a>
@@ -53,12 +53,12 @@ span{
     font-size: 0.9rem;
 }
 .navbar-body{
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     padding-left: 2rem;
 }
 .image{
     width: 4em;
-    height: 4em;
+    height: 3em;
 }
 
 @media(max-width:991px){
