@@ -4,18 +4,23 @@
       <NavBar/>
       <IntroSection/>
     </div>
+    <div class="welcome-section">
+      <WelcomeSection/>
+    </div>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue';
 import IntroSection from './components/IntroSection.vue';
+import WelcomeSection from './components/WelcomeSection.vue';
 
 export default {
   name: 'App',
   components: {
     NavBar,
-    IntroSection
+    IntroSection,
+    WelcomeSection
 }
 }
 </script>
@@ -27,8 +32,8 @@ export default {
   box-sizing: border-box;
 }
 .intro-section{
-  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.7)), 
-	url("./assets/samuel-ferrara-1527pjeb6jg-unsplash.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 
+	url("./assets/alex-knight-958bi4L1N9s-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -19,6 +19,7 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
+
 .intro-body{
     display: flex;
     flex-direction: column;
