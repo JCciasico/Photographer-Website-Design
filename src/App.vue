@@ -6,6 +6,7 @@
     </div>
     <div class="welcome-section">
       <WelcomeSection/>
+      <ArtSection/>
     </div>
   </div>
 </template>
@@ -14,18 +15,20 @@
 import NavBar from './components/NavBar.vue';
 import IntroSection from './components/IntroSection.vue';
 import WelcomeSection from './components/WelcomeSection.vue';
+import ArtSection from './components/ArtSection.vue';
 
 export default {
   name: 'App',
   components: {
     NavBar,
     IntroSection,
-    WelcomeSection
+    WelcomeSection,
+    ArtSection
 }
 }
 </script>
 
-<style>
+<style scoped>
 *{
   margin: 0;
   padding: 0;
