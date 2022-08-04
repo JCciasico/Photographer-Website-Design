@@ -15,9 +15,9 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link text" aria-current="page">Services</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="#" class="nav-link image-link" aria-current="page"><img src="../assets/Untitled.png" class="image" alt=""></a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a href="#" class="nav-link text" aria-current="page">Projects</a>
                         </li>
@@ -41,11 +41,10 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 a{
-    color: black;
+    color: white;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    font-weight: bold;
 }
 a:hover{
     color: #e74c3c;
