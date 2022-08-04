@@ -15,9 +15,9 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link text" aria-current="page">Services</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a href="#" class="nav-link image-link" aria-current="page"><img src="../assets/Untitled.png" class="image" alt=""></a>
-                        </li> -->
+                        <li class="nav-item">
+                            <img src="../assets/logo.png"  class="nav-link image-link image" alt="">
+                        </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link text" aria-current="page">Projects</a>
                         </li>
@@ -54,11 +54,11 @@ span{
 }
 .navbar-body{
     padding: 0.5rem 0;
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 .image{
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
 }
 
 @media(max-width:991px){

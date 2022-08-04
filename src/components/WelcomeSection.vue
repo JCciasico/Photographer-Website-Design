@@ -36,5 +36,6 @@ span{
 }
 p{
     margin-top: 50px;
+    color: #747d8c;
 }
 </style>

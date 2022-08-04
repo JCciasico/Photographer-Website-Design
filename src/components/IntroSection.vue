@@ -34,7 +34,7 @@ h1{
 }
 h6{
     font-family: 'Philosopher', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 100px;
 }
