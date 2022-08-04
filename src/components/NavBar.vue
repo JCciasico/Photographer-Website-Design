@@ -11,19 +11,19 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <ul class="navbar-nav d-flex align-items-center" style="column-gap:25px">
                         <li class="nav-item">
-                            <a href="#home" class="nav-link text" aria-current="page">About</a>
+                            <a href="#" class="nav-link text" aria-current="page">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#about" class="nav-link text" aria-current="page">Services</a>
+                            <a href="#" class="nav-link text" aria-current="page">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#car-rent" class="nav-link text" aria-current="page"><img src="../assets/logo.png" class="image" alt=""></a>
+                            <a href="#" class="nav-link text" aria-current="page"><img src="../assets/logo.png" class="image" alt=""></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#services" class="nav-link text" aria-current="page">Projects</a>
+                            <a href="#" class="nav-link text" aria-current="page">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#blog" class="nav-link text" aria-current="page">Contact</a>
+                            <a href="#" class="nav-link text" aria-current="page">Contact</a>
                         </li>
                     </ul>
                 </div>
