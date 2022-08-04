@@ -38,12 +38,12 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap');
 
 a{
     color: white;
     font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     text-decoration: none;
 }
 a:hover{
