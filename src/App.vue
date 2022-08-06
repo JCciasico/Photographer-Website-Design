@@ -17,6 +17,9 @@
     <div class="project-section">
       <ProjectSection/>
     </div>
+    <div class="footer-section">
+      <FooterSection/>
+    </div>
   </div>
 </template>
 
@@ -28,6 +31,7 @@ import ArtSection from './components/ArtSection.vue';
 import ServicesSection from './components/ServicesSection.vue';
 import FeatureSection from './components/FeatureSection.vue';
 import ProjectSection from './components/ProjectSection.vue';
+import FooterSection from './components/FooterSection.vue';
 
 export default {
   name: 'App',
@@ -38,7 +42,8 @@ export default {
     ArtSection,
     ServicesSection,
     FeatureSection,
-    ProjectSection
+    ProjectSection,
+    FooterSection
 }
 }
 </script>
@@ -61,5 +66,11 @@ export default {
 	url("./assets/highway-1jpg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.footer-section{
+  background: url("./assets/brooke-lark-oQ1yv6PzhN0-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 </style>
