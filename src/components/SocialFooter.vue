@@ -1,10 +1,10 @@
 <template>
   <section>
     <div class="container soc-body">
-        <div class="box">
+        <div class="box-1">
             <i class="fa-brands fa-facebook-f"></i>
         </div>
-        <div class="box">
+        <div class="box-2">
             <i class="fa-brands fa-instagram"></i>
         </div>
         <div class="box">
@@ -22,4 +22,29 @@ export default {
 
 <style scoped>
 
+.soc-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    padding: 0.5rem 0;
+}
+.box{
+    background-color: #2f3542;
+    padding: 0.75rem 1rem;
+    border-radius: 50%;
+    color: white;
+}
+.box-1{
+    background-color: #2f3542;
+    padding: 0.75rem 1.2rem;
+    border-radius: 50%;
+    color: white;
+}
+.box-2{
+    background-color: #2f3542;
+    padding: 0.75rem 1.1rem;
+    border-radius: 50%;
+    color: white;
+}
 </style>
