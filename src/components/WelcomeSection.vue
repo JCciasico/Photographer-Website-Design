@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container welcome-body">
+    <div class="container welcome-body" id="about">
         <div class="row d-flex justify-content-center">
             <div class="col-8">
                 <span>Welcome</span>

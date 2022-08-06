@@ -10,16 +10,16 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                     <ul class="navbar-nav" style="column-gap:25px">
                         <li class="nav-item">
-                            <a href="#" class="nav-link text" aria-current="page">About</a>
+                            <a href="#about" class="nav-link text" aria-current="page">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text" aria-current="page">Services</a>
+                            <a href="#services" class="nav-link text" aria-current="page">Services</a>
                         </li>
                         <li class="nav-item">
                             <img src="../assets/logo-1.png"  class="nav-link image-link image" alt="">
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text" aria-current="page">Projects</a>
+                            <a href="#project" class="nav-link text" aria-current="page">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link text" aria-current="page">Contact</a>

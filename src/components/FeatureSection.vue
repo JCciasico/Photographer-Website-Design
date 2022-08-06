@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container">
-        <div class="row text-center d-flex justify-content-center">
+        <div class="row text-center d-flex justify-content-center" id="project">
             <div class="col-8 feature-body">
                 <p id="feature">Featured project</p>
                 <span>Restless dreams</span>
