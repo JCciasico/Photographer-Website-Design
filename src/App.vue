@@ -20,6 +20,9 @@
     <div class="footer-section">
       <FooterSection/>
     </div>
+    <div class="social-section">
+      <SocialFooter/>
+    </div>
   </div>
 </template>
 
@@ -32,6 +35,7 @@ import ServicesSection from './components/ServicesSection.vue';
 import FeatureSection from './components/FeatureSection.vue';
 import ProjectSection from './components/ProjectSection.vue';
 import FooterSection from './components/FooterSection.vue';
+import SocialFooter from './components/SocialFooter.vue';
 
 export default {
   name: 'App',
@@ -43,7 +47,8 @@ export default {
     ServicesSection,
     FeatureSection,
     ProjectSection,
-    FooterSection
+    FooterSection,
+    SocialFooter
 }
 }
 </script>

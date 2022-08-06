@@ -43,5 +43,20 @@ button{
 button:hover{
     transform: scale(1.035);
 }
-
+@media(max-width:500px){
+    span{
+        font-family: 'Philosopher', sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid #747d8c;
+    }
+    button{
+        margin-top: 60px;
+        padding: 0.5rem;
+        width: 125px;
+        font-family: 'Philosopher', sans-serif;
+        background: none;
+    }
+}
 </style>
