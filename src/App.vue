@@ -14,6 +14,9 @@
     <div class="feature-section">
       <FeatureSection/>
     </div>
+    <div class="project-section">
+      <ProjectSection/>
+    </div>
   </div>
 </template>
 
@@ -24,6 +27,7 @@ import WelcomeSection from './components/WelcomeSection.vue';
 import ArtSection from './components/ArtSection.vue';
 import ServicesSection from './components/ServicesSection.vue';
 import FeatureSection from './components/FeatureSection.vue';
+import ProjectSection from './components/ProjectSection.vue';
 
 export default {
   name: 'App',
@@ -33,7 +37,8 @@ export default {
     WelcomeSection,
     ArtSection,
     ServicesSection,
-    FeatureSection
+    FeatureSection,
+    ProjectSection
 }
 }
 </script>
