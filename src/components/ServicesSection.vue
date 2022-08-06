@@ -4,9 +4,9 @@
         <div class="row d-flex justify-content-center" id="services">
             <div class="col-9">
                 <div class="row">
-                    <div class="col-12 image" data-aos="zoom-in">
+                    <div class="col-12 image">
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-1" data-aos="fade-right">
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-1">
                         
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 services-cont text-center" data-aos="fade-left">
@@ -37,14 +37,14 @@ export default {
 
 
 .image{
-    background: url("../assets/brent-ninaber-6qesnUQceJA-unsplash.jpg");
+    background: url("../assets/brent-ninaber-6qesnUQceJA-unsplash.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 250px;
 }
 .image-1{
     padding: 0;
-    background: url("../assets/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg");
+    background: url("../assets/dariusz-sankowski-3OiYMgDKJ6k-unsplash.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

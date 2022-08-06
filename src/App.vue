@@ -17,12 +17,14 @@
     <div class="project-section">
       <ProjectSection/>
     </div>
-    <div class="footer-section">
-      <FooterSection/>
-    </div>
-    <div class="social-section">
-      <SocialFooter/>
-    </div>
+    <footer>
+      <div class="footer-section">
+        <FooterSection/>
+      </div>
+      <div class="social-section">
+        <SocialFooter/>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -62,18 +64,18 @@ export default {
 }
 .intro-section{
   background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), 
-	url("./assets/alex-knight-958bi4L1N9s-unsplash.jpg");
+	url("./assets/alex-knight-958bi4L1N9s-unsplash.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .feature-section{
   background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), 
-	url("./assets/highway-1jpg.jpg");
+	url("./assets/highway-1jpg.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .footer-section{
-  background:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./assets/william-thomas--C8ig94AFBE-unsplash.jpg");
+  background:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./assets/william-thomas--C8ig94AFBE-unsplash.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
