@@ -2,7 +2,7 @@
   <section>
     <div class="container footer-body">
         <div class="row">
-            <div class="col-lg-12 col-md-12 text-center contact-body">
+            <div class="col-lg-12 col-md-12 text-center contact-body" data-aos="fade-up">
                 <h1><span>Let us work together</span></h1>
                 <button>Contact Me</button>
             </div>

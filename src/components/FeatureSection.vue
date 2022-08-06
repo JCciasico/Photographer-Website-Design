@@ -3,10 +3,12 @@
     <div class="container">
         <div class="row text-center d-flex justify-content-center" id="project">
             <div class="col-8 feature-body">
-                <p id="feature">Featured project</p>
-                <span>Restless dreams</span>
-                <p id="title">Dark alley and silent hills</p>
-                <button>Follow me</button>
+                <div data-aos="fade-down">
+                    <p id="feature">Featured project</p>
+                    <span>Restless dreams</span>
+                    <p id="title">Dark alley and silent hills</p>
+                </div>
+                <button data-aos="fade-up">Follow me</button>
             </div>
         </div>
     </div>

@@ -4,15 +4,15 @@
         <div class="row d-flex justify-content-center">
             <div class="col-lg-9 col-md-9 col-sm-12">
                 <div class="row">
-                    <div class="col-lg-6 col-md-12 img-1">
+                    <div class="col-lg-6 col-md-12 img-1" data-aos="fade-right">
                         <h2>Tell me you dont want</h2>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="row">
-                            <div class="col-12 img-2">
+                            <div class="col-12 img-2" data-aos="fade-left">
                                 <h2>Nights & Colours</h2>
                             </div>
-                            <div class="col-12 img-3">
+                            <div class="col-12 img-3" data-aos="fade-left">
                                 <h2>Ontario Lake</h2>
                             </div>
                         </div>

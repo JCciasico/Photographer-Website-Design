@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="container navbar-body" id="home">
+        <div class="container navbar-body" id="home" data-aos="fade-down" data-aos-duration="1000">
             <nav class="navbar navbar-expand-lg">                    
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"

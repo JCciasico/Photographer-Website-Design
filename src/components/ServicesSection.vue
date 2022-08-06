@@ -4,12 +4,12 @@
         <div class="row d-flex justify-content-center" id="services">
             <div class="col-9">
                 <div class="row">
-                    <div class="col-12 image">
+                    <div class="col-12 image" data-aos="zoom-in">
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 image-1">
-                        <img src="../assets/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg" class="img-fluid" alt="">
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-1" data-aos="fade-right">
+                        
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 services-cont text-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 services-cont text-center" data-aos="fade-left">
                         <div>
                             <span>Services</span>
                             <div class="services-des">
@@ -44,6 +44,10 @@ export default {
 }
 .image-1{
     padding: 0;
+    background: url("../assets/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 span{
     font-family: 'Philosopher', sans-serif;
@@ -56,19 +60,22 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 9rem 0;
 }
 .services-des{
     font-family: 'Philosopher', sans-serif;
     color: #747d8c;
     margin-top: 30px;
 }
+@media(max-width: 991px){
+    .services-cont{
+        padding: 6rem 0;
+    }
+}
 @media(max-width:500px){
     span{
         font-size: 1.5rem;
         padding: 1rem 0;
-    }
-    .image{
-        display: none;
     }
     .services-cont{
         padding: 0.7rem 0;

@@ -4,7 +4,7 @@
         <div class="row d-flex justify-content-center">
             <div class="col-8">
                 <span>Welcome</span>
-                <p>I am filmmaker, a photographer and a philisopher.
+                <p data-aos="zoom-out">I am filmmaker, a photographer and a philisopher.
                     By capturing the reality I seek the truth, hidden
                     in every piece of existence.
                 </p>

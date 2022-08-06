@@ -5,19 +5,19 @@
             <div class="col-8">
                 <span>Art in numbers</span>
                 <div class="row number-body">
-                    <div class="col">
+                    <div class="col" data-aos="fade-down" data-aos-duration="500">
                         <h1>879</h1>
                         <p>photographs</p>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-down" data-aos-duration="1000">
                         <h1>52</h1>
                         <p>movie projects</p>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-down" data-aos-duration="1500">
                         <h1>104</h1>
                         <p>awards</p>
                     </div>
-                    <div class="col">
+                    <div class="col" data-aos="fade-down" data-aos-duration="2000">
                         <h1>12</h1>
                         <p>lenses</p>
                     </div>

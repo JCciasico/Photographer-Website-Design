@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container intro-body">
+    <div class="container intro-body" data-aos="zoom-in" data-aos-duration="2000">
         <h1>
             The truth behind
         </h1>
