@@ -35,16 +35,28 @@ export default {
     border-radius: 50%;
     color: white;
 }
+.box:hover{
+    color: #1e90ff;
+    cursor: pointer;
+}
 .box-1{
     background-color: #2f3542;
     padding: 0.75rem 1.2rem;
     border-radius: 50%;
     color: white;
 }
+.box-1:hover{
+    color: #1e90ff;
+    cursor: pointer;
+}
 .box-2{
     background-color: #2f3542;
     padding: 0.75rem 1.1rem;
     border-radius: 50%;
     color: white;
+}
+.box-2:hover{
+    color: #ff4757;
+    cursor: pointer;
 }
 </style>
