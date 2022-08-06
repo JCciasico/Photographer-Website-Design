@@ -73,7 +73,7 @@ export default {
   background-size: cover;
 }
 .footer-section{
-  background: url("./assets/brooke-lark-oQ1yv6PzhN0-unsplash.jpg");
+  background:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./assets/william-thomas--C8ig94AFBE-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
