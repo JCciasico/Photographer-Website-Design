@@ -5,15 +5,15 @@
             <div class="col-lg-9 col-md-9 col-sm-12">
                 <div class="row">
                     <div class="col-lg-6 col-md-12 img-1">
-                        <h2 data-aos="zoom-in">Tell me you dont want</h2>
+                        <h2>Tell me you dont want</h2>
                     </div>
                     <div class="col-lg-6 col-md-12">
                         <div class="row">
                             <div class="col-12 img-2">
-                                <h2 data-aos="zoom-in">Nights & Colours</h2>
+                                <h2>Nights & Colours</h2>
                             </div>
                             <div class="col-12 img-3">
-                                <h2 data-aos="zoom-in">Ontario Lake</h2>
+                                <h2>Ontario Lake</h2>
                             </div>
                         </div>
                     </div>
