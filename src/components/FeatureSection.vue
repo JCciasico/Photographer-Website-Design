@@ -2,13 +2,13 @@
   <section>
     <div class="container">
         <div class="row text-center d-flex justify-content-center" id="project">
-            <div class="col-8 feature-body">
-                <div data-aos="fade-down">
+            <div class="col-8 feature-body" data-aos="fade-down">
+                <div>
                     <p id="feature">Featured project</p>
                     <span>Restless dreams</span>
                     <p id="title">Dark alley and silent hills</p>
                 </div>
-                <button data-aos="fade-up">Follow me</button>
+                <button>Follow me</button>
             </div>
         </div>
     </div>
