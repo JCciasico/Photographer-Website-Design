@@ -1,4 +1,4 @@
-# photographer-website
+# photographer-website-design
 
 ## Project setup
 ```
@@ -20,8 +20,6 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Project Link
 https://photographer-website-design.vercel.app/
